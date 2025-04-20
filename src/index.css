@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+.slick-next {
+  right: 50px !important;
+  color: black;
+  background-color: transparent;
+}
+.slick-prev {
+  left: 50px !important;
+  color: black !important;
+}
+
+
+.slick-next:before {
+  font-size: 40px !important;
+}
+.slick-prev:after {
+  font-size: 40px !important;
+}
+
+#banner-form input::placeholder{
+  color: black;
+}
