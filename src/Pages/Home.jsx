@@ -69,30 +69,42 @@ export default function Home() {
                 <div className='max-w-[1320px] mx-auto'>
                     <Slider {...settings} id="homeSlider">
                         <div>
-                            <div>
-                                <figure>
+                            <div >
+                                <figure className='lg:block sm:block hidden'>
                                     <img src="/images/awards_banner-min-1714394299.jpg" alt="" />
                                 </figure>
+                                <figure className='lg:hidden sm:hidden block'>
+                                    <img src="/images/award_mobile_banner-min-1714394299.jpg" className='object-cover'  alt="" />
+                                </figure>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <figure>
+                                <figure className='lg:block sm:block hidden'>
                                     <img src="/images/WhatsApp_Image_2025-01-02_at_16.48.35_(1)-1735816827.jpeg" alt="" />
                                 </figure>
-                            </div>
-                        </div>
-                        <div>
-                            <div>
-                                <figure>
-                                    <img src="/images/nri_web_banner_(1)-1724664784.jpg" alt="" />
+                                <figure className='lg:hidden sm:hidden block'>
+                                    <img src="/images/Heritage_mb_banner-1724664836.jpg" alt="" />
                                 </figure>
                             </div>
                         </div>
                         <div>
                             <div>
-                                <figure>
+                                <figure className='lg:block sm:block hidden'>
+                                    <img src="/images/nri_web_banner_(1)-1724664784.jpg" alt="" />
+                                </figure>
+                                <figure className='lg:hidden sm:hidden block'>
+                                    <img src="/images/WhatsApp_Image_2025-01-02_at_16.48.34_(1)-1735816827.jpeg" alt="" />
+                                </figure>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <figure className='lg:block sm:block hidden'>
                                     <img src="/images/web_banner_heritage_3_(1)-1724664835.jpg" alt="" />
+                                </figure>
+                                <figure className='lg:hidden sm:hidden block'>
+                                    <img src="/images/nri_mb_banner-1724664784.jpg" alt="" />
                                 </figure>
                             </div>
                         </div>
