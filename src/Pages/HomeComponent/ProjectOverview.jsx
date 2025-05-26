@@ -26,7 +26,13 @@ export default function ProjectOverview() {
                     dots: true
                 }
             },
-
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
             {
                 breakpoint: 800,
                 settings: {
@@ -184,7 +190,7 @@ export default function ProjectOverview() {
                                     <div className='bg-white shadow-lg rounded-lg p-2'>
                                         <div className='relative projectOverview-items-images'>
                                             <figure>
-                                                <img src="/images/Gate_-_4-min-1716280216.jpg" className='rounded-lg w-full sm:h-[197px] h-[150px]  ' alt="" />
+                                                <img src="/images/Gate_-_4-min-1716280216.jpg" className='rounded-lg w-full    ' alt="" />
                                             </figure>
                                             <div className='bg-white shadow-lg rounded-lg p-2  ' >
 

@@ -42,7 +42,13 @@ export default function Home() {
                     dots: true
                 }
             },
-
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
             {
                 breakpoint: 800,
                 settings: {
@@ -80,7 +86,13 @@ export default function Home() {
                     dots: true
                 }
             },
-
+            {
+                breakpoint: 1000,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
             {
                 breakpoint: 800,
                 settings: {
