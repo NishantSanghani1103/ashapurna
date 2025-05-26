@@ -43,13 +43,13 @@ export default function Header() {
                         <nav>
 
                             <ul className='flex   lg:flex-row sm:flex-col  flex-col lg:p-0 p-3  items-center lg:gap-10 gap-3 text-[#32343b]'>
-                                <li className='lg:w-auto w-full hover:border-b-1 border-[#be8553] lg:py-3 hover:text-[#be8553]'>
+                                <li className='lg:w-auto w-full lg:hover:border-b-1 border-[#be8553] lg:py-3 lg:hover:text-[#be8553]'>
                                     <Link className='capitalize'>Home</Link>
                                 </li>
                                 <li className='lg:w-auto w-full group lg:py-8 relative' onClick={() => {
                                     setaboutUsMegaMenu(!aboutUsMegaMenu)
                                 }}>
-                                    <Link className={`capitalize flex items-center justify-between ${aboutUsMegaMenu && 'text-[#be8553]'}`}>About Us
+                                    <Link className={`capitalize flex items-center lg:hover:text-[#be8553] justify-between ${aboutUsMegaMenu && 'text-[#be8553]'}`}>About Us
                                         {
                                             aboutUsMegaMenu ? <FaChevronUp className='lg:hidden sm:block block' />
 
@@ -58,7 +58,7 @@ export default function Header() {
 
                                         }
                                     </Link>
-                                    <FaCaretUp className='absolute top-[72%] left-[20%] text-3xl hidden  group-hover:block text-[#be8553]' />
+                                    <FaCaretUp className='absolute top-[72%] left-[20%] text-3xl hidden  lg:group-hover:block text-[#be8553]' />
                                     <div
                                         id="aboutUs-MegaMenu"
                                         className={` bg-white border-[#be8553] lg:shadow-md lg:border-t-2 lg:border-b-2 lg:absolute  lg:top-full lg:w-[250px] h-auto ${aboutUsMegaMenu ? 'block' : 'hidden'} lg:group-hover:block`}>
@@ -92,7 +92,7 @@ export default function Header() {
                                 </li>
 
                                 <li className='lg:w-auto w-full group lg:py-8 relative' onClick={() => setprojectMegaMenu(!projectMegaMenu)}>
-                                    <Link className={`capitalize flex items-center justify-between ${projectMegaMenu && 'text-[#be8553]'}`}>Projects
+                                    <Link className={`capitalize flex items-center justify-between lg:hover:text-[#be8553] ${projectMegaMenu && 'text-[#be8553]'}`}>Projects
                                         {
                                             projectMegaMenu ? <FaChevronUp className='lg:hidden sm:block block' />
 
@@ -101,7 +101,7 @@ export default function Header() {
 
                                         }
                                     </Link>
-                                    <FaCaretUp className='absolute top-[72%] left-[20%] text-3xl hidden  group-hover:block text-[#be8553]' />
+                                    <FaCaretUp className='absolute top-[72%] left-[20%] text-3xl hidden  lg:group-hover:block text-[#be8553]' />
                                     <div
                                         id="project-MegaMenu"
                                         className={` bg-white border-[#be8553] lg:shadow-md lg:border-t-2 lg:border-b-2 lg:absolute  lg:top-full lg:w-[200px] h-auto ${projectMegaMenu ? 'block' : 'hidden'} lg:group-hover:block`}>
@@ -133,14 +133,14 @@ export default function Header() {
                                         </ul>
                                     </div>
                                 </li>
-                                <li className='lg:w-auto w-full hover:border-b-1 border-[#be8553] lg:py-3 hover:text-[#be8553]'>
+                                <li className='lg:w-auto w-full lg:hover:border-b-1 border-[#be8553] lg:py-3 lg:hover:text-[#be8553]'>
                                     <Link>Media and Events</Link>
                                 </li>
-                                <li className='lg:w-auto w-full'>
+                                <li className='lg:w-auto w-full lg:hover:border-b-1 border-[#be8553] lg:py-3 lg:hover:text-[#be8553]'>
                                     <Link className='capitalize'>Blogs</Link>
                                 </li>
-                                <li className='lg:w-auto w-full lg:pb-0 pb-5 lg:border-b-0 border-b-1 border-gray-300'>
-                                    <Link>Contact Us</Link>
+                                <li className='lg:w-auto w-full pb-5 lg:hover:border-b lg:hover:border-[#be8553] lg:py-3 lg:border-transparent lg:hover:text-[#be8553] border-b border-gray-300'>
+                                    <Link to="/contact">Contact Us</Link>
                                 </li>
                                 <div className='w-full lg:hidden block'>
                                     <li className='text-start'>

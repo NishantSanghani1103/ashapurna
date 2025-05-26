@@ -25,3 +25,58 @@
 #banner-form input::placeholder{
   color: black;
 }
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+
+
+#mob-whyChoose-Slider .slick-dots li button:before {
+  /* background-color: #be8553; */
+  font-family: 'slick';
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: #be8553 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #be8553;
+  justify-content: center;
+}
+
+#mob-whyChoose-Slider .slick-dots li .slick-active{
+  color: black !important;
+}
+
+:root{
+  --heading-color_bg-color:#32343b;
+  --bgBtn-color:#be8553;
+  --sub-heading-color:#5A5A5A;
+  --content-color:#062f43;
+}
+.heading-color_bg-color{
+  color: var(--heading-color_bg-color);
+}
+.bg-color{
+  background-color: var(--heading-color_bg-color);
+}
+.bgBtn-color{
+  background-color: var(--bgBtn-color);
+}
+.sub-heading-color{
+  color: var(--sub-heading-color);
+}
+.content-color{
+  color: var(--content-color);
+}
