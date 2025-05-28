@@ -155,9 +155,9 @@ export default function Footer() {
 
 
       <section className='max-w-full  bg-[#f4efeb]'>
-        <div className='max-w-[1320px]  py-12 mx-auto'>
+        <div className='max-w-[1320px]  py-12 lg:mx-auto mx-2'>
           <div>
-            <ul className='flex gap-5 my-3 justify-center'>
+            <ul className='flex lg:flex-row flex-col gap-5 my-3 justify-center'>
               <li>
                 <Link className='text-[#314b58] font-normal capitalize'>real estate developer in jodhpur &nbsp; | </Link>
               </li>
@@ -173,7 +173,7 @@ export default function Footer() {
             </ul>
 
 
-            <ul className='flex gap-8'>
+            <ul className='flex lg:flex-row flex-col gap-8'>
               <li>
                 <Link className='text-[#314b58] font-normal capitalize'>Houses in Rajasthan &nbsp; | </Link>
               </li>
