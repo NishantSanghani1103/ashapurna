@@ -80,3 +80,24 @@
 .content-color{
   color: var(--content-color);
 }
+
+.testimonialsSlider .slick-dots li.slick-active button:before {
+   
+    color: #be8553 !important;
+}
+
+.slick-dots li button:before {
+   
+    font-size: 16px !important;
+    color: #be8553 !important;
+}
+
+.testimonialsSlider .slick-dots {
+    text-align: left !important;
+}
+.mediaEventSlider .slick-dots li button:before {
+    font-size: 90px !important;
+    line-height: 20px;
+    content: '-' !important;
+
+}

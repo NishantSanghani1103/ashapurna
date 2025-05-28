@@ -6,6 +6,8 @@ import { IoMdArrowDropdown } from "react-icons/io";
 import { property } from '../Data/Property';
 import { Link } from 'react-router-dom';
 import ProjectOverview from './HomeComponent/ProjectOverview';
+import Testimonials from './HomeComponent/Testimonials';
+import MediaAndEvent from './HomeComponent/MediaAndEvent';
 export default function Home() {
 
     let [propertyDefaultName, setpropertyDefaultName] = useState("Select Property")
@@ -360,7 +362,7 @@ export default function Home() {
                     <Slider className='my-5' {...featuredProjects} id="featured-projects">
 
                         <div>
-                            <div>
+                            <div className='mx-3'>
                                 <div className='grid lg:grid-cols-2  gap-5 featured-projects-images lg:mx-0'>
                                     <div className='w-full'>
                                         <figure>
@@ -424,7 +426,7 @@ export default function Home() {
 
 
                         <div>
-                            <div>
+                            <div className='mx-3'>
                                 <div className='grid lg:grid-cols-2  gap-5 featured-projects-images lg:mx-0'>
                                     <div className='w-full'>
                                         <figure>
@@ -488,7 +490,7 @@ export default function Home() {
 
 
                         <div>
-                            <div>
+                            <div className='mx-3'>
                                 <div className='grid lg:grid-cols-2  gap-5 featured-projects-images lg:mx-0'>
                                     <div className='w-full'>
                                         <figure>
@@ -552,7 +554,7 @@ export default function Home() {
 
 
                         <div>
-                            <div>
+                            <div className='mx-3'>
                                 <div className='grid lg:grid-cols-2  gap-5 featured-projects-images lg:mx-0'>
                                     <div className='w-full'>
                                         <figure>
@@ -867,6 +869,8 @@ export default function Home() {
             </section>
 
             <ProjectOverview />
+            <Testimonials />
+            <MediaAndEvent />
         </>
     )
 }
