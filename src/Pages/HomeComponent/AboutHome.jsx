@@ -3,7 +3,7 @@ import CountUp from 'react-countup'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-export default function About() {
+export default function AboutHome() {
 
 
     let settings = {
@@ -152,7 +152,7 @@ export default function About() {
                                 </div>
                             </div>
 
-                            <div className='lg:hidden block pb-5'>
+                            <div className='lg:hidden block pb-5' id='aboutHomeSlider'>
                                 <Slider className='my-5 homeAboutSlider' {...settings}>
                                     <div>
                                         <div className='mx-2'>

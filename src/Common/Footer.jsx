@@ -199,7 +199,7 @@ export default function Footer() {
           </div>
 
           <div className='mt-12'>
-            <p className='text-center text-sm leading-6 text-[#314b58]'>The information on the website regarding the project, except the legal documents, is purely indicative and representational and do not constitute a promise by the company. Further, the Company/Architects reserve the right to add / delete any details / specifications / elevations mentioned, if so warranted.  </p>
+            <p className='lg:text-center text-sm leading-6 text-[#314b58] text-justify'>The information on the website regarding the project, except the legal documents, is purely indicative and representational and do not constitute a promise by the company. Further, the Company/Architects reserve the right to add / delete any details / specifications / elevations mentioned, if so warranted.  </p>
           </div>
         </div>
 

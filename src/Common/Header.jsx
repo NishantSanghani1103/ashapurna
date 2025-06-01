@@ -21,7 +21,7 @@ export default function Header() {
 
     return (
         <>
-            <section className='max-w-full sticky top-0 z-50 mx-auto shadow-lg  bg-white lg:mb-4 mb-0'>
+            <section className='max-w-full sticky top-0 z-50 mx-auto shadow-lg  bg-white  mb-0'>
                 <div className='max-w-[1320px]  lg:p-0 sm:p-0   flex items-center justify-between mx-auto   ' id='header-mid'>
                     <div id='logo' className=''>
                         <figure>
@@ -44,7 +44,7 @@ export default function Header() {
 
                             <ul className='flex   lg:flex-row sm:flex-col  flex-col lg:p-0 p-3  items-center lg:gap-10 gap-3 text-[#32343b]'>
                                 <li className='lg:w-auto w-full lg:hover:border-b-1 border-[#be8553] lg:py-3 lg:hover:text-[#be8553]'>
-                                    <Link className='capitalize'>Home</Link>
+                                    <Link to={'/'} onClick={()=>setheaderMenu(false)} className='capitalize'>Home</Link>
                                 </li>
                                 <li className='lg:w-auto w-full group lg:py-8 relative' onClick={() => {
                                     setaboutUsMegaMenu(!aboutUsMegaMenu)
@@ -64,7 +64,10 @@ export default function Header() {
                                         className={` bg-white border-[#be8553] lg:shadow-md lg:border-t-2 lg:border-b-2 lg:absolute  lg:top-full lg:w-[250px] h-auto ${aboutUsMegaMenu ? 'block' : 'hidden'} lg:group-hover:block`}>
                                         <ul>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link>About Us</Link>
+                                                <Link to={'/about'} onClick={() => {
+                                                    setheaderMenu(false)
+                                                    setaboutUsMegaMenu(false)
+                                                }}>About Us</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
                                                 <Link>Our Journey</Link>

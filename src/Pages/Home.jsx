@@ -8,7 +8,8 @@ import { Link } from 'react-router-dom';
 import ProjectOverview from './HomeComponent/ProjectOverview';
 import Testimonials from './HomeComponent/Testimonials';
 import MediaAndEvent from './HomeComponent/MediaAndEvent';
-import About from './HomeComponent/About';
+import AboutHome from './HomeComponent/AboutHome';
+
 export default function Home() {
 
     let [propertyDefaultName, setpropertyDefaultName] = useState("Select Property")
@@ -201,7 +202,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <About />
+            <AboutHome />
 
             <section className="max-w-full  my-5 bg-[url(/images/whyashapurna-bg.webp)] " id="why-choose">
                 <div className='max-w-[1320px] w-full mx-auto p-2 grid gap-15 lg:grid-cols-[33%_auto] py-6    ' id='why-choose-mid'>

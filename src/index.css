@@ -101,3 +101,23 @@
     content: '-' !important;
 
 }
+
+
+.aboutAboutSlider .slick-dots {
+    bottom: -50px;
+}
+
+.aboutAboutSlider .slick-dots li button:before {
+    font-size: 90px !important;
+    line-height: 20px;
+    content: '-' !important;
+
+}
+
+
+
+
+
+
+/* 1. Prevent clipping */
+
