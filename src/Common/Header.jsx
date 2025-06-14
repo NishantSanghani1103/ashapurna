@@ -73,7 +73,7 @@ export default function Header() {
                                                 <Link>Our Journey</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link>Managment Speaks</Link>
+                                                <Link to={'/management-speak'}>Managment Speaks</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
                                                 <Link>Our Team</Link>

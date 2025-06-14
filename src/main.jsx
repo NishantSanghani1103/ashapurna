@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import MainLayout from './Common/MainLayout.jsx'
 import Home from './Pages/Home.jsx'
 import About from './Pages/About/About.jsx'
+import ManagementSpeak from './ManagementSpeakComponents/ManagementSpeak.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
       <Route path='/' element={<MainLayout />}>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/management-speak' element={<ManagementSpeak />} />
       </Route>
     </Routes>
   </BrowserRouter>
