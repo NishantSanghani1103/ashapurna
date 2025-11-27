@@ -70,7 +70,7 @@ export default function Header() {
                                                 }}>About Us</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link>Our Journey</Link>
+                                                <Link to={'/our-journey'}>Our Journey</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
                                                 <Link to={'/management-speak'}>Managment Speaks</Link>
