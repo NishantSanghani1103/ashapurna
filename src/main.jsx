@@ -10,6 +10,9 @@ import ManagementSpeak from './ManagementSpeakComponents/ManagementSpeak.jsx'
 import OurJourney from './Pages/OurJourney/OurJourney.jsx'
 import OurTeam from './Pages/OurTeam/OurTeam.jsx'
 import CsrSocialResponsibility from './Pages/CsrSocialResponsibility/CsrSocialResponsibility.jsx'
+import NewsLatter from './Pages/NewsLatter/NewsLatter.jsx'
+import NriCorner from './Pages/NriCorner/NriCorner.jsx'
+import WhyJodhpur from './Pages/WhyJodhpur/WhyJodhpur.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -21,7 +24,9 @@ createRoot(document.getElementById('root')).render(
         <Route path='/our-journey' element={<OurJourney />} />
         <Route path='/our-team' element={<OurTeam />} />
         <Route path='/csr-social-responsibility' element={<CsrSocialResponsibility />} />
-
+        <Route path='/newsletter' element={<NewsLatter />} />
+        <Route path='/nri-corner' element={<NriCorner />} />
+        <Route path='/why-invest-in-jodhpur' element={<WhyJodhpur/>}/>
       </Route>
     </Routes>
   </BrowserRouter>

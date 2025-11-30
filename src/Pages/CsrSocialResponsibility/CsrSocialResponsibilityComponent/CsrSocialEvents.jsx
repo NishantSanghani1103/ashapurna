@@ -25,7 +25,7 @@ export default function CsrSocialEvents() {
                         <div id='socialEventsTitle'>
                             <h2 className='lg:text-4xl text-2xl text-center text-[#062f43] font-semibold'>Social Updates</h2>
                         </div>
-                        <div className='max-w-full  lg:my-24 my-16 grid lg:grid-cols-3 sm:grid-cols-2 lg:gap-5 sm:gap-14 gap-20' id='socialUpdatesItem'>
+                        <div className='max-w-full  lg:my-24 my-16 grid lg:gap-y-20 sm:gap-y-20 lg:grid-cols-3 sm:grid-cols-2 lg:gap-5 sm:gap-5 gap-20' id='socialUpdatesItem'>
                             <div className='bg-[#f4efeb] rounded-md p-2'>
                                 <div className='border p-2 overflow-hidden -mt-14  border-[#be8553] rounded-md'>
                                     <figure>
@@ -73,6 +73,24 @@ export default function CsrSocialEvents() {
                                     <button className='capitalize bg-[#be8553] text-white py-2 px-5 rounded-sm cursor-pointer hover:bg-transparent border-[#be8553] border hover:text-[#be8553]'>read more</button>
                                 </div>
                             </div>
+
+                            
+                            <div className='bg-[#f4efeb] rounded-md p-2'>
+                                <div className='border p-2 overflow-hidden -mt-14  border-[#be8553] rounded-md'>
+                                    <figure>
+                                        <img className='rounded-md hover:scale-110 duration-300 ' src="/images/housing_problem_seminar.webp " alt="" />
+                                    </figure>
+                                </div>
+                                <div className=' py-5 px-2' id='content'>
+                                    <h4 className='text-xl text-[#32343B] font-semibold'>Seminar On Housing Problems</h4>
+                                    <h5 className='text-[#be8553] py-1 text-[15px] font-medium'>#Samajik Sarokar of Ashapurna</h5>
+                                    <p className='py-3 text-sm leading-[26px] text-[#5a5a5a] line-clamp-2 '>Addressing the housing problem issues, Ashapurna Group organised a seminar on housing problems. Various issues on the subject have been discussed at great length during the event.</p>
+                                </div>
+                                <div className='mb-5 '>
+                                    <button className='capitalize bg-[#be8553] text-white py-2 px-5 rounded-sm cursor-pointer hover:bg-transparent border-[#be8553] border hover:text-[#be8553]'>read more</button>
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

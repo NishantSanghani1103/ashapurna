@@ -44,7 +44,7 @@ export default function Header() {
 
                             <ul className='flex   lg:flex-row sm:flex-col  flex-col lg:p-0 p-3  items-center lg:gap-10 gap-3 text-[#32343b]'>
                                 <li className='lg:w-auto w-full lg:hover:border-b-1 border-[#be8553] lg:py-3 lg:hover:text-[#be8553]'>
-                                    <Link to={'/'} onClick={()=>setheaderMenu(false)} className='capitalize'>Home</Link>
+                                    <Link to={'/'} onClick={() => setheaderMenu(false)} className='capitalize'>Home</Link>
                                 </li>
                                 <li className='lg:w-auto w-full group lg:py-8 relative' onClick={() => {
                                     setaboutUsMegaMenu(!aboutUsMegaMenu)
@@ -70,25 +70,56 @@ export default function Header() {
                                                 }}>About Us</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link to={'/our-journey'}>Our Journey</Link>
+                                                <Link to={'/our-journey'}
+                                                    onClick={() => {
+                                                        setheaderMenu(false)
+
+                                                    }}
+                                                >Our Journey</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link to={'/management-speak'}>Managment Speaks</Link>
+                                                <Link to={'/management-speak'}
+                                                    onClick={() => {
+                                                        setheaderMenu(false)
+                                                    }}
+
+                                                >Managment Speaks</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link to={'/our-team'}>Our Team</Link>
+                                                <Link to={'/our-team'}
+                                                    onClick={() => {
+                                                        setheaderMenu(false)
+                                                    }}
+                                                >Our Team</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link to={'/csr-social-responsibility'}>CRS social responsobility</Link>
+                                                <Link to={'/csr-social-responsibility'}
+                                                    onClick={() => {
+                                                        setheaderMenu(false)
+                                                    }}
+
+                                                >CRS social responsobility</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link>newslatter</Link>
+                                                <Link to={'/newsletter'}
+                                                    onClick={() => {
+                                                        setheaderMenu(false)
+                                                    }}
+                                                >newslatter</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link>NRI corner</Link>
+                                                <Link to={'/nri-corner'}
+                                                    onClick={() => {
+                                                        setheaderMenu(false)
+                                                    }}
+                                                >NRI corner</Link>
                                             </li>
                                             <li className='w-full  capitalize hover:bg-gray-100 lg:p-3 p-2'>
-                                                <Link>why invest in jodhapur</Link>
+                                                <Link to={'/why-invest-in-jodhpur'}
+                                                   onClick={() => {
+                                                        setheaderMenu(false)
+                                                    }}
+                                                >why invest in jodhapur</Link>
                                             </li>
                                         </ul>
                                     </div>
